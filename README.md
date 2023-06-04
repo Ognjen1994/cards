@@ -21,7 +21,7 @@ To get started with Cards App, you'll need to have Node.js and npm (Node Package
 3. Open the app in your browser:
 
    ```
-   http://localhost:3000/home
+   http://localhost:3000
    ```
 
 ## Usage
