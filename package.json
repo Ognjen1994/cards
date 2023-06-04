@@ -1,8 +1,11 @@
 {
+  "homepage": "http://Ognjen1994.github.io/cards",
   "name": "vite-reactts-eslint-prettier",
   "version": "0.0.0",
   "scripts": {
     "dev": "vite",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "build": "tsc && vite build",
     "serve": "vite preview",
     "lint:fix": "eslint ./src --ext .jsx,.js,.ts,.tsx --quiet --fix --ignore-path ./.gitignore",
@@ -49,6 +52,7 @@
     "eslint-plugin-prettier": "^4.0.0",
     "eslint-plugin-react": "^7.28.0",
     "eslint-plugin-simple-import-sort": "^7.0.0",
+    "gh-pages": "^5.0.0",
     "jest": "^29.5.0",
     "jest-environment-jsdom": "^29.3.1",
     "postcss": "^8.4.21",
