@@ -1,0 +1,7 @@
+{
+  "short_name": "Cards",
+  "name": "Cards",
+  "icons": [],
+  "start_url": ".",
+  "display": "standalone"
+}
